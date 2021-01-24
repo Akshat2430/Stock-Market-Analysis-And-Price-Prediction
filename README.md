@@ -31,3 +31,16 @@ Our model doesn't do a very good job of predictions. Also, it relies on calculat
 BSE allows you to download historical data (Open, High, Low, Close) of the indices. You can find the link to do so here: https://www.bseindia.com/indices/IndexArchiveData.html
 
 ## Results
+
+You can find the presentation on [YouTube](https://youtu.be/1T0iXG8ISNc)
+If you wish to view the interactive plots, check out this project on [IBM Watson Studio](https://eu-gb.dataplatform.cloud.ibm.com/analytics/notebooks/v2/d9a1b2ae-b1bb-410e-aad9-14e38d2b3475/view?access_token=33f0de192be5b1c9dcd525d9e5a38270bfa27d42186fd4740dbcb905d91a1564)
+
+1. Decomposition : Barring recent stock market changes because of the CoVID-19 pandemic, we observe that Sensex seems to have a strong seasonality and limited noice/residulaity. In simpler words, this means that stocks markets behave in a predicatable manner over the long term.
+
+2. Feature Importance: Of the listed technical indicators, 9 day Exponential Moving Average and Relative Strength Index are the most important ones.
+
+3. LSTM Predictions: The LSTM model does a really good job of predicting future market trends, due to the high seasonality and predictable noise of Sensex.
+
+## Author
+
+Akshat Kharbanda is a BITS Pilani, KK Birla Goa Campus Student majoring in Electronics and Communication Engineering. Feel free to connect on [LinkedIn](https://www.linkedin.com/in/akshat-kharbanda-b91986148/)!
